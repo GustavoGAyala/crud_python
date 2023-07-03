@@ -1,11 +1,52 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Title</title>
+  <title>Reclamos</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
 </head>
+
 <body>
+  <header id="header">    
     
-</body>
-</html>
+  </header>
+  <main>
+
+  </main>
+  
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+    </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+      integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+    </script>
+    <script src="./js/main.js"></script>
+    <script src="./js/reclamos.js"></script>
+    <script src="./css/estilos.css"></script>
+    <form id="formulario" onsubmit="return validarFormulario()">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre"><br>
+
+        <label for="dni">DNI:</label>
+        <input type="text" id="dni" name="dni"><br>
+
+        <label for="direccion">E-mail:</label>
+        <input type="email" id="direccion" name="direccion"placeholder="sophie@example.com"><br>
+
+        <label for="comentario">Comentario:</label>
+        <textarea for="comentarios" name="comentarios" cols="90" rows="5"></textarea><br>
+
+        <input href="mailto:gustavoayala25@gemail.com" type="submit" value="Enviar">
+    </form>
+    <body>
+    
+    <html>

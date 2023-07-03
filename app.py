@@ -1,5 +1,5 @@
 # Del módulo flask importar la clase Flask y los métodos jsonify,request
-from flask import Flask ,jsonify ,request
+from flask import Flask  ,request
 # Del módulo flask_cors importar CORS, se usa en una api rest, permite conectar desde el frontend a una api.
 from flask_cors import CORS
 # Los siguientes módulos ayudan al manejo de la base de datos.
@@ -45,6 +45,7 @@ class ProductoSchema(ma.Schema):
 producto_schema=ProductoSchema()
 # El objeto productos_schema es para traer múltiples registros de producto
 productos_schema=ProductoSchema(many=True)
+
 
 @app.route('/productos',methods=['GET'])
 def get_productos():
