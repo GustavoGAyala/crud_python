@@ -17,14 +17,11 @@ document.getElementById("header").innerHTML=`<nav class="navbar navbar-expand-sm
               <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Stock</a>
               <div class="dropdown-menu" aria-labelledby="dropdownId">
                   <a class="dropdown-item" href="productos.html">Productos</a>
-                  <a class="dropdown-item" href="#">Insumos</a>
+                  
               </div>
           </li>
       </ul>
-      <form class="d-flex my-2 my-lg-0">
-          <input class="form-control me-sm-2" type="text" placeholder="Buscar">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
-      </form>
+      
   </div>
 </div>
 </nav>`
