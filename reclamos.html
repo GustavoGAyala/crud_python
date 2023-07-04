@@ -21,6 +21,10 @@
 
   </main>
   
+  <div class="container">
+    <h1>Reclamos</h1>
+  <br>
+  <br>
     <!-- Bootstrap JavaScript Libraries -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
       integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
@@ -33,20 +37,23 @@
     <script src="./js/reclamos.js"></script>
     <script src="./css/estilos.css"></script>
     <form id="formulario" onsubmit="return validarFormulario()">
+
+        <div class="form-group">
         <label for="nombre">Nombre:</label>
-        <input type="text" id="nombre" name="nombre"><br>
+        <input class="form-control" type="text" id="nombre" name="nombre"><br>
 
         <label for="dni">DNI:</label>
-        <input type="text" id="dni" name="dni"><br>
+        <input class="form-control" type="text" id="dni" name="dni"><br>
 
         <label for="direccion">E-mail:</label>
-        <input type="email" id="direccion" name="direccion"placeholder="sophie@example.com"><br>
+        <input class="form-control" type="email" id="direccion" name="direccion"placeholder="sophie@example.com"><br>
 
         <label for="comentario">Comentario:</label>
-        <textarea for="comentarios" name="comentarios" cols="90" rows="5"></textarea><br>
+        <textarea class="form-control" for="comentarios" name="comentarios" cols="90" rows="5"></textarea><br>
 
-        <input href="mailto:gustavoayala25@gemail.com" type="submit" value="Enviar">
-    </form>
+        <input href="mailto:gustavoayala25@gemail.com" type="submit" class="btn btn-primary btn-lg active" value="Enviar Reclamo">
+    </div>
+    </form></div>
     <body>
     
     <html>
